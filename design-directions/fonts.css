@@ -1,0 +1,109 @@
+/* zen-old-mincho */
+@font-face {
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/zen-old-mincho-0.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+@font-face {
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/zen-old-mincho-1.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+
+/* shippori-mincho */
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/shippori-mincho-0.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../assets/fonts/shippori-mincho-1.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+
+/* hina-mincho */
+@font-face {
+  font-family: 'Hina Mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/hina-mincho-0.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+
+/* zen-kaku-gothic-new */
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/zen-kaku-gothic-new-0.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/zen-kaku-gothic-new-1.woff2) format('woff2');
+  unicode-range: U+20, U+32-33, U+3a, U+3001-3002, U+3010-3011, U+3042, U+3044, U+3046, U+3048, U+304b-304c, U+304f-3060, U+3063, U+3066-306b, U+306e-3070, U+307e-3080, U+3082, U+3088-308c, U+3092-3094, U+3099, U+30af-30b0, U+30b9-30ba, U+30c3, U+30c8-30c9, U+30cd, U+30d5-30d6, U+30ea, U+30ec, U+30fc, U+4e00, U+4eba, U+4f1a, U+5199, U+51fa, U+5206, U+524d, U+5316, U+53d6, U+540d, U+5834, U+58f2, U+5c11, U+5c4b, U+5dee, U+5ea6, U+601d, U+6240, U+624b, U+6587, U+6599, U+666f, U+66ff, U+6709, U+672c, U+6750, U+68da, U+6a2a, U+7269, U+753a, U+771f, U+7d20, U+81ea, U+884c, U+8a9e, U+8aad, U+8cb7, U+90e8, U+9577, U+9589, U+96a3, U+98a8, U+ff0f, U+ff5c;
+}
+
+/* eb-garamond */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/eb-garamond-0.woff2) format('woff2');
+  unicode-range: U+20, U+2f-3a, U+41-42, U+45, U+4b-4c, U+4f, U+52-54, U+59, U+61-7a;
+}
+
+/* cormorant-garamond */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/cormorant-garamond-0.woff2) format('woff2');
+  unicode-range: U+20, U+2f-3a, U+41-42, U+45, U+4b-4c, U+4f, U+52-54, U+59, U+61-7a;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/cormorant-garamond-1.woff2) format('woff2');
+  unicode-range: U+20, U+2f-3a, U+41-42, U+45, U+4b-4c, U+4f, U+52-54, U+59, U+61-7a;
+}
+
+/* spectral */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../assets/fonts/spectral-0.woff2) format('woff2');
+  unicode-range: U+20, U+2f-3a, U+41-42, U+45, U+4b-4c, U+4f, U+52-54, U+59, U+61-7a;
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/spectral-1.woff2) format('woff2');
+  unicode-range: U+20, U+2f-3a, U+41-42, U+45, U+4b-4c, U+4f, U+52-54, U+59, U+61-7a;
+}
