@@ -12,7 +12,7 @@
   --paper-2:#DFE5E6;
   --ink:#1F2326;
   --ink-muted:#5C6469;
-  --brand:#7A5A38;
+  --brand:#7F6447;
   --line:#B4BCBE;
   --mincho:"Shippori Mincho", serif;
   --latin:"Cormorant Garamond", serif;
@@ -31,7 +31,7 @@ body{
   line-height:2;
   font-feature-settings:"palt" 1;
 }
-svg{display:block}
+img{display:block; max-width:100%}
 :focus-visible{outline:2px solid var(--brand); outline-offset:3px}
 
 /* ---------- ファーストビュー ---------- */
@@ -44,17 +44,7 @@ svg{display:block}
   padding-inline:var(--gutter);
   padding-block:clamp(2rem,6vh,4rem);
 }
-.logo{color:var(--brand)}
-.logo svg{width:clamp(96px,15vw,140px); height:auto; margin-inline:auto}
-.logo-type{
-  margin-top:.9em;
-  font-family:var(--latin);
-  font-size:clamp(.64rem,2.2vw,.78rem);
-  letter-spacing:.46em;
-  line-height:1;
-  color:var(--brand);
-  text-indent:.46em;
-}
+.logo img{width:clamp(172px,26vw,232px); height:auto; display:block; margin-inline:auto}
 .catch{
   margin:clamp(2.75rem,8vh,5rem) 0 0;
   font-weight:500;
@@ -158,11 +148,8 @@ svg{display:block}
 
 <header class="hero">
   <div class="logo">
-    <svg viewBox="0 0 64 32" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" role="img" aria-label="リレーブックス">
-      <path d="M4 6C18 8 28 17 40 29"/>
-      <path d="M60 6C46 8 36 17 24 29"/>
-    </svg>
-    <div class="logo-type">RELAY BOOKS</div>
+    <img src="../assets/logo/relay-books-logo.webp" width="1134" height="491"
+         alt="リレーブックス RELAY BOOKS">
   </div>
 
   <h1 class="catch">本が、<br>人の物語になる場所。</h1>
