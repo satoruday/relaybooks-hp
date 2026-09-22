@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ==========================================================
+     公開前に差し替える項目
+     いずれも 【 】 で囲んである。同じ文字列で書かれているので、
+     ファイル内の検索と置換でまとめて直せる。
+
+       【町名】              2箇所（はじまり / これから）
+       【店主名】            3箇所（店主より本文 / 署名 / 事業者情報）
+       【メールアドレス】    2箇所（買い取り相談ボタン / 事業者情報）
+       【出張・持ち込み…】   1箇所（買い取りの受付方法）
+       【汚れや書き込み…】   1箇所（買い取りの注意事項）
+       【Instagram等が…】   1箇所（事業者情報のSNS。無ければ行ごと削除）
+
+     古物商許可番号
+       事業者情報の該当行に class="is-pending" が付いており、
+       取得までは表示されない。番号を記入してこの class を外す。
+
+     写真
+       3箇所が枠のみのプレースホルダーになっている。
+       有料素材の購入後、figure の中身を img に差し替える。
+
+     ドメイン
+       決まったら og:image を絶対URLにし、og:url を追加する。
+     ========================================================== -->
+
+<title>リレーブックス｜本が、人の物語になる場所。</title>
+<meta name="description" content="リレーブックスは、本を読む文化を次の世代へつなぐ本屋です。読み終えた本、しまったままの本をお譲りください。一冊ずつ大切に、次の読み手へ手渡します。">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="リレーブックス｜本が、人の物語になる場所。">
+<meta property="og:description" content="本を読む文化を次の世代へつなぐ本屋です。読み終えた本、しまったままの本をお譲りください。">
+<meta property="og:image" content="/assets/og/og-image.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- 1 ファーストビュー -->
+<header class="hero">
+  <div class="hero__logo">
+    <img src="assets/logo/relay-books-logo.webp" width="1134" height="491"
+         alt="リレーブックス RELAY BOOKS">
+  </div>
+
+  <h1 class="hero__catch">本が、<br>人の物語になる場所。</h1>
+
+  <div class="hero__rule" aria-hidden="true"></div>
+
+  <p class="hero__sub">この町に、もう一度本屋を。</p>
+</header>
+
+<main>
+
+  <!-- 2 はじまり -->
+  <section class="section story">
+    <div class="wrap story__inner">
+      <div class="vhead">
+        <div class="vrule" aria-hidden="true"></div>
+        <div>
+          <h2>はじまり</h2>
+          <div class="latin">STORY</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="prose">
+          <p>【町名】には、少し前まで本屋がありました。<br class="pc">その本屋が閉まり、町から本屋がなくなりました。</p>
+          <p>隣の町まで行けば本屋はあるし、ネットでも本は買えます。<br class="pc">それでも、自分の町に本屋がないことが、さみしかった。</p>
+          <p>本屋は、本を売るだけの場所ではありません。<br class="pc">本に出会い、手に取り、読んでみようかなと思える場所。<br class="pc">この町から、本を読む文化をなくしたくない。<br class="pc">それが、リレーブックスのはじまりです。</p>
+        </div>
+
+        <figure class="ph ph--wide">
+          <span>写真｜町の風景、または本棚の一部<br>横長 3:2 ／ 有料素材に差し替え</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 リレーブックスという名前 -->
+  <section class="section about">
+    <div class="wrap">
+      <div class="hhead">
+        <h2>リレーブックスという名前</h2>
+      </div>
+
+      <p class="about__lead">「リレー」には、いくつかの意味を込めています。</p>
+
+      <dl class="about__main">
+        <dt>文化のリレー</dt>
+        <dd>本を読んだ子どもが大人になり、いつか自分の子どもに本を薦める。本を読む文化を、次の世代へ。</dd>
+      </dl>
+
+      <dl class="about__rest">
+        <div>
+          <dt>本のリレー</dt>
+          <dd>出版社から読者へ。読者から、次の読者へ。本は人から人へ渡っていきます。</dd>
+        </div>
+        <div>
+          <dt>物語のリレー</dt>
+          <dd>同じ一冊でも、読む人ごとに違う物語が生まれます。</dd>
+        </div>
+        <div>
+          <dt>読書のリレー</dt>
+          <dd>一冊が面白かったら、また次の一冊へ。</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 4 新刊と古本 -->
+  <section class="section books">
+    <div class="wrap books__inner">
+      <div class="vhead vhead--right">
+        <div class="vrule" aria-hidden="true"></div>
+        <div>
+          <h2>新刊と古本</h2>
+        </div>
+      </div>
+
+      <div class="books__body">
+        <div class="books__pair">
+          <dl>
+            <dt>新刊</dt>
+            <dd>これから、誰かの物語になる本。</dd>
+          </dl>
+          <div class="books__divider" aria-hidden="true"></div>
+          <dl>
+            <dt>古本</dt>
+            <dd>すでに誰かの物語になった本。そして、もう一度、誰かの物語になる本。</dd>
+          </dl>
+        </div>
+
+        <p class="books__note">リレーブックスは、新刊と古本を分けて考えません。<br class="pc">どちらも、次の読み手を待っている本です。</p>
+
+        <figure class="ph ph--square">
+          <span>写真｜新しい本と、少し古びた本<br>正方形 ／ 有料素材に差し替え</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 本をお譲りください -->
+  <section class="section buy">
+    <div class="wrap buy__inner">
+      <div>
+        <div class="hhead">
+          <span class="latin">BUY</span>
+          <h2>本をお譲りください</h2>
+        </div>
+
+        <div class="prose">
+          <p>読み終えた本、しまったままの本はありませんか。<br class="pc">リレーブックスが引き取り、次の読み手へおつなぎします。</p>
+          <p>小説、絵本・児童書、実用書、専門書など、ジャンルは問いません。<br class="pc">一冊からでも、まとまった量でも、お気軽にご相談ください。</p>
+        </div>
+
+        <dl class="buy__terms">
+          <div>
+            <dt>受付方法</dt>
+            <dd>【出張・持ち込み・宅配など、決まり次第記載】</dd>
+          </div>
+          <div>
+            <dt>注意事項</dt>
+            <dd>【汚れや書き込みのある本など、お引き取りできない場合の記載】</dd>
+          </div>
+        </dl>
+
+        <a class="button" href="mailto:【メールアドレス】">買い取りについて相談する</a>
+      </div>
+
+      <figure class="ph ph--wide">
+        <span>写真｜本を手渡す手元、積まれた古本<br>横長 3:2 ／ 有料素材に差し替え</span>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6 店主より -->
+  <section class="section owner">
+    <div class="owner__inner">
+      <div class="hhead hhead--center">
+        <h2>店主より</h2>
+      </div>
+
+      <div class="owner__message">
+        <p>はじめまして。リレーブックスの【店主名】です。</p>
+        <p>本をあまり読まない人も、子どもも、ふらっと立ち寄れる本屋をつくりたいと思っています。</p>
+        <p>お譲りいただいた本は、一冊ずつ大切に、次の読み手へ手渡していきます。</p>
+      </div>
+
+      <p class="owner__sign">リレーブックス　【店主名】</p>
+    </div>
+  </section>
+
+  <!-- 7 これから -->
+  <section class="section future" aria-label="これから">
+    <div class="wrap">
+      <div class="future__inner">
+        <p>今はまだ、お店の場所を探しているところです。<br class="pc">いつか【町名】に、子どもも大人も気軽に入れる本屋をひらきます。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 8 連絡先・事業者情報 -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="hhead">
+      <span class="latin">CONTACT</span>
+      <h2>お問い合わせ</h2>
+    </div>
+
+    <dl class="footer__meta">
+      <div>
+        <dt>屋号</dt>
+        <dd>リレーブックス／RELAY BOOKS</dd>
+      </div>
+      <div>
+        <dt>代表者</dt>
+        <dd>【店主名】</dd>
+      </div>
+      <!-- 古物商許可を取得したら、番号を記入して is-pending を外す -->
+      <div class="is-pending">
+        <dt>古物商許可番号</dt>
+        <dd>【許可取得後に記載】</dd>
+      </div>
+      <div>
+        <dt>メール</dt>
+        <dd><a href="mailto:【メールアドレス】">【メールアドレス】</a></dd>
+      </div>
+      <div>
+        <dt>SNS</dt>
+        <dd>【Instagram等があれば】</dd>
+      </div>
+    </dl>
+
+    <p class="footer__end">RELAY BOOKS</p>
+  </div>
+</footer>
+
+</body>
+</html>
