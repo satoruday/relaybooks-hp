@@ -281,6 +281,8 @@ a{color:inherit}
   font-size:clamp(.95rem,3.6vw,1.02rem);
   line-height:2.1;
 }
+.buy__terms dd p{margin:0}
+.buy__terms dd p + p{margin-top:.9em}
 .button{
   display:inline-block;
   margin-top:clamp(2.5rem,7vh,3.5rem);
