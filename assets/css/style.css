@@ -55,12 +55,16 @@ a{color:inherit}
 .section{padding-inline:var(--gutter); padding-block:var(--section-y)}
 .wrap{max-width:var(--wrap); margin-inline:auto}
 
-/* 縦書きのセクション見出し。細い線を添える */
+/* 縦書きのセクション見出し。細い線を添える
+   横書きの箱の中の縦書きは、Safariで箱の幅が文字より細く計算されて
+   文字がはみ出すことがある。行の高さを1にして、幅を1文字分に固定する */
 .vhead{display:flex; gap:clamp(.85rem,2vw,1.4rem)}
+.vhead > div{flex:none}
 .vhead--right{flex-direction:row-reverse}
 .vrule{width:var(--stroke); background:var(--line)}
 .vhead h2{
   writing-mode:vertical-rl;
+  width:1em;
   margin:0;
   font-weight:400;
   font-size:clamp(1rem,3.4vw,1.3rem);
@@ -69,6 +73,7 @@ a{color:inherit}
 }
 .vhead .latin{
   writing-mode:vertical-rl;
+  width:1em;
   margin-top:1.4em;
   font-family:var(--latin);
   font-size:.7rem;
@@ -427,9 +432,9 @@ a{color:inherit}
 @media (max-width:767px){
   /* 制御した改行は、狭い画面では不自然になるため無効にする */
   br.pc{display:none}
-  .story__inner{gap:1.5rem}
+  .story__inner{gap:2.5rem}
   .story .ph{margin-inline-start:0}
-  .books__inner{gap:1.5rem}
+  .books__inner{gap:2.5rem}
   .prose p,
   .buy__terms dd,
   .books__note{max-width:none}
