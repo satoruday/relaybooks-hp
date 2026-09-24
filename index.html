@@ -20,8 +20,9 @@
        取得までは表示されない。番号を記入してこの class を外す。
 
      写真
-       3箇所が枠のみのプレースホルダーになっている。
-       有料素材の購入後、figure の中身を img に差し替える。
+       assets/img/ の3枚は生成AIで作ったもの。
+       story.webp（はじまり）は仮置きで、豊前市の風景写真に差し替える予定。
+       同じファイル名・横長3:2・幅1200px程度で置き換えれば、HTMLの変更は不要。
 
      ドメイン
        決まったら og:image を絶対URLにし、og:url を追加する。
@@ -84,8 +85,9 @@
           <p>本屋は、本を売るだけの場所ではありません。<br class="pc">本に出会い、手に取り、読んでみようかなと思える場所。<br class="pc">この町から、本を読む文化をなくしたくない。<br class="pc">それが、リレーブックスのはじまりです。</p>
         </div>
 
-        <figure class="ph ph--wide">
-          <span>写真｜町の風景、または本棚の一部<br>横長 3:2 ／ 有料素材に差し替え</span>
+        <figure class="photo">
+          <img src="assets/img/story.webp" width="1200" height="800" loading="lazy" decoding="async"
+               alt="古い木の本棚の一角に、使い込まれた本や絵本が並んでいる">
         </figure>
       </div>
     </div>
@@ -147,8 +149,9 @@
 
         <p class="books__note">リレーブックスは、新刊と古本を分けて考えません。<br class="pc">どちらも、次の読み手を待っている本です。</p>
 
-        <figure class="ph ph--square">
-          <span>写真｜新しい本と、少し古びた本<br>正方形 ／ 有料素材に差し替え</span>
+        <figure class="photo">
+          <img src="assets/img/books.webp" width="900" height="900" loading="lazy" decoding="async"
+               alt="真新しい白い本と、角が擦り切れた古い本が並んでいる">
         </figure>
       </div>
     </div>
@@ -185,8 +188,9 @@
         <a class="button" href="mailto:【メールアドレス】">買い取りについて相談する</a>
       </div>
 
-      <figure class="ph ph--wide">
-        <span>写真｜本を手渡す手元、積まれた古本<br>横長 3:2 ／ 有料素材に差し替え</span>
+      <figure class="photo">
+        <img src="assets/img/buy.webp" width="1200" height="800" loading="lazy" decoding="async"
+             alt="重ねた古本を、ひとりの手からもうひとりの手へ渡している">
       </figure>
     </div>
   </section>

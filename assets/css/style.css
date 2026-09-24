@@ -111,24 +111,9 @@ a{color:inherit}
 }
 .prose p:last-child{margin-bottom:0}
 
-/* 写真プレースホルダー。有料素材を購入後に img に差し替える */
-.ph{
-  margin:0;
-  border:var(--stroke) solid var(--line);
-  background:var(--paper-2);
-  display:grid;
-  place-items:center;
-  padding:1.25rem;
-}
-.ph--wide{aspect-ratio:3/2}
-.ph--square{aspect-ratio:1/1}
-.ph span{
-  font-size:.76rem;
-  letter-spacing:.12em;
-  line-height:1.95;
-  color:var(--ink-muted);
-  text-align:center;
-}
+/* 写真。表示幅の約2倍の画素数で用意し、WebPで置いている */
+.photo{margin:0}
+.photo img{width:100%; height:auto}
 
 /* 未確定のため非表示にしている項目。決まったらこの class を外す。
    個別のレイアウト指定に必ず打ち勝つ必要があるため important を付ける */
@@ -191,7 +176,7 @@ a{color:inherit}
    縦書き見出しを左に添え、本文と写真を右に置く
    ========================================================== */
 .story__inner{display:grid; grid-template-columns:auto 1fr; gap:clamp(1.5rem,5vw,4.5rem)}
-.story .ph{margin-top:clamp(3rem,8vh,5rem); max-width:560px; margin-inline-start:auto}
+.story .photo{margin-top:clamp(3rem,8vh,5rem); max-width:560px; margin-inline-start:auto}
 
 /* ==========================================================
    3 リレーブックスという名前
@@ -260,7 +245,7 @@ a{color:inherit}
   line-height:2.2;
   color:var(--ink-muted);
 }
-.books .ph{margin-top:clamp(3rem,8vh,5rem); max-width:420px}
+.books .photo{margin-top:clamp(3rem,8vh,5rem); max-width:420px}
 
 /* ==========================================================
    5 本をお譲りください
@@ -413,7 +398,7 @@ a{color:inherit}
   .books__divider{block-size:auto; inline-size:var(--stroke); align-self:stretch}
 
   .buy__inner{grid-template-columns:1fr auto; gap:clamp(3rem,6vw,5rem); align-items:start}
-  .buy .ph{width:clamp(280px,32vw,420px)}
+  .buy .photo{width:clamp(280px,32vw,420px)}
 
   .footer__meta{grid-template-columns:repeat(2, minmax(0,1fr)); gap:2.25rem 3rem}
 }
@@ -433,7 +418,7 @@ a{color:inherit}
   /* 制御した改行は、狭い画面では不自然になるため無効にする */
   br.pc{display:none}
   .story__inner{gap:2.5rem}
-  .story .ph{margin-inline-start:0}
+  .story .photo{margin-inline-start:0}
   .books__inner{gap:2.5rem}
   .prose p,
   .buy__terms dd,
