@@ -271,9 +271,22 @@ a{color:inherit}
 }
 .buy__terms dd p{margin:0}
 .buy__terms dd p + p{margin-top:.9em}
+.buy__contact{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:1.25rem 2rem;
+  margin-top:clamp(2.5rem,7vh,3.5rem);
+}
+/* LINEを主、メールを従にする。同じ「相談」でも窓口が違うので2つ並べる */
+.buy__alt{
+  font-size:clamp(.88rem,3.3vw,.95rem);
+  letter-spacing:.12em;
+  text-decoration-thickness:var(--stroke);
+  text-underline-offset:.4em;
+}
 .button{
   display:inline-block;
-  margin-top:clamp(2.5rem,7vh,3.5rem);
   padding:1.05em 2.4em;
   background:var(--brand);
   color:var(--paper);
@@ -341,6 +354,14 @@ a{color:inherit}
   color:var(--ink-muted);
 }
 .footer__meta dd{margin:0; font-size:clamp(.92rem,3.4vw,1rem)}
+/* 手で打ち込まれるIDやアドレスは、明朝だと数字の1と小文字のlが
+   見分けにくい。数字の形がはっきりした欧文書体で表示する */
+.footer__meta .id{
+  font-family:var(--latin);
+  font-variant-numeric:lining-nums;
+  font-size:1.08em;
+  letter-spacing:.04em;
+}
 .footer__meta a{text-decoration-thickness:var(--stroke); text-underline-offset:.35em}
 .footer__end{
   margin:clamp(3.5rem,10vh,5rem) 0 0;

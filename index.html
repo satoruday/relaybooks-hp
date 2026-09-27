@@ -12,7 +12,11 @@
        【店主名】            1箇所（事業者情報の代表者。is-pending で非表示中）
                              店主よりの本文と署名は「店主」とだけ書いてある。
                              名前を出すときはそこも書き換える
-       【Instagram等が…】   1箇所（事業者情報のSNS。無ければ行ごと削除）
+       【ユーザー名】        Instagram。事業者情報の行が is-pending で非表示中
+
+     LINE
+       ID @111orgkj が2箇所（「LINEで相談する」ボタン / 事業者情報）。
+       プレミアムIDに変えたら、@111orgkj を検索して新しいIDに置き換える。
 
      古物商許可番号
        事業者情報の該当行に class="is-pending" が付いており、
@@ -176,7 +180,10 @@
           </div>
         </dl>
 
-        <a class="button" href="mailto:relaybooks.buzen@gmail.com?subject=%E8%B2%B7%E3%81%84%E5%8F%96%E3%82%8A%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">買い取りについて相談する</a>
+        <div class="buy__contact">
+          <a class="button" href="https://line.me/R/ti/p/@111orgkj">LINEで相談する</a>
+          <a class="buy__alt" href="mailto:relaybooks.buzen@gmail.com?subject=%E8%B2%B7%E3%81%84%E5%8F%96%E3%82%8A%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">メールで相談する</a>
+        </div>
       </div>
 
       <figure class="photo">
@@ -239,11 +246,16 @@
       </div>
       <div>
         <dt>メール</dt>
-        <dd><a href="mailto:relaybooks.buzen@gmail.com">relaybooks.buzen@gmail.com</a></dd>
+        <dd><a class="id" href="mailto:relaybooks.buzen@gmail.com">relaybooks.buzen@gmail.com</a></dd>
       </div>
       <div>
-        <dt>SNS</dt>
-        <dd>【Instagram等があれば】</dd>
+        <dt>LINE</dt>
+        <dd><a class="id" href="https://line.me/R/ti/p/@111orgkj">@111orgkj</a></dd>
+      </div>
+      <!-- Instagramのアカウントができたら、記入して is-pending を外す -->
+      <div class="is-pending">
+        <dt>Instagram</dt>
+        <dd><a class="id" href="https://www.instagram.com/【ユーザー名】/">@【ユーザー名】</a></dd>
       </div>
     </dl>
 
